@@ -1,24 +1,29 @@
-# README
+# rails_7_0_minimal_app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Create Environment
 
-Things you may want to cover:
+rails new.
 
-* Ruby version
+```
+% rails new rails_7_0_minimal_app --minimal --skip-bundle
+```
 
-* System dependencies
+setup `rbenv gemset` for RubyMine.
 
-* Configuration
+```
+% rbenv gemset init
+created rails_7_0_minimal_app for 3.1.2
+created and initialized the following gemset for use with 3.1.2
+=====
+rails_7_0_minimal_app
+=====
+```
 
-* Database creation
+## Tested Environment
 
-* Database initialization
+- Rails 7.0.3
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Related Blog (Written in Japanese)
 
-* Deployment instructions
-
-* ...
+- [Railsで、wrap_parametersで追加されたキーに対し、Strong Parametersのrequireやpermitを使ってみた - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2022/05/24/234536)
