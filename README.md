@@ -27,3 +27,4 @@ rails_7_0_minimal_app
 ## Related Blog (Written in Japanese)
 
 - [Railsで、wrap_parametersで追加されたキーに対し、Strong Parametersのrequireやpermitを使ってみた - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2022/05/24/234536)
+- [Rails7で導入された構文を使って、ActiveRecord::Enumを使ってみた - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2022/06/17/000042)
