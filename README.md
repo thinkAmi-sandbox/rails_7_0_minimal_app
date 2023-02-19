@@ -1,3 +1,4 @@
+
 # rails_7_0_minimal_app
 
 ## Create Environment
