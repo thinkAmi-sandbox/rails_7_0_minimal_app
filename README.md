@@ -22,7 +22,7 @@ rails_7_0_minimal_app
 
 ## Tested Environment
 
-- Rails 7.0.3
+- Rails 7.0.4.2
 
 
 ## Related Blog (Written in Japanese)
@@ -30,3 +30,4 @@ rails_7_0_minimal_app
 - [Railsで、wrap_parametersで追加されたキーに対し、Strong Parametersのrequireやpermitを使ってみた - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2022/05/24/234536)
 - [Rails7で導入された構文を使って、ActiveRecord::Enumを使ってみた - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2022/06/17/000042)
 - [Railsにて、モデルのカスタムバリデーションメソッドの中で、標準のエラーメッセージを利用する - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2023/01/12/213848)
+- [Railsで、DBから取得するデータに対し、order・sort_by・sortを使って、昇順・降順ソートする - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2023/02/19/222340)
