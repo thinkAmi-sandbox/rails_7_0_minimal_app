@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_02_18_083535) do
+ActiveRecord::Schema[7.0].define(version: 2023_02_22_120451) do
   create_table "apples", force: :cascade do |t|
     t.string "name"
     t.integer "color"
@@ -37,6 +37,14 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_18_083535) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "markets", force: :cascade do |t|
+    t.string "name"
+    t.integer "area_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["area_id"], name: "index_markets_on_area_id"
+  end
+
   create_table "shops", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
@@ -44,4 +52,5 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_18_083535) do
   end
 
   add_foreign_key "apples", "areas"
+  add_foreign_key "markets", "areas"
 end
