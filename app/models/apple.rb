@@ -21,7 +21,7 @@
 #  area_id  (area_id => areas.id)
 #
 class Apple < ApplicationRecord
-  belongs_to :area
+  belongs_to :area, optional: true
 
   enum color: [:yellow, :red, :green]
 end
