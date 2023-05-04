@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_02_22_120451) do
+ActiveRecord::Schema[7.0].define(version: 2023_05_04_072713) do
   create_table "apples", force: :cascade do |t|
     t.string "name"
     t.integer "color"
@@ -33,6 +33,13 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_22_120451) do
     t.string "title"
     t.integer "release", default: 0, null: false
     t.integer "payment", default: 0, null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "favorites", force: :cascade do |t|
+    t.string "name"
+    t.boolean "is_secret"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
