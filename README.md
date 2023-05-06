@@ -36,3 +36,4 @@ rails_7_0_minimal_app
 - [Rails + ActiveSupport::InheritableOptionsを使って、既存のハッシュをドットアクセスできるようにする - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2023/04/23/231402)
 - [RSpec 3.12 + rspec-rails 6.0.2にて、change + have_attributesマッチャを使うとエラーになるため、回避策を試してみた - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2023/05/04/223930)
 - [Rails + RSpecにて、changeマッチャまわりをいろいろ試してみた - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2023/05/05/233348)
+- [ActiveSupportのdeep_mergeに対し、with_indifferent_accessと組み合わせたり、blockを渡してみたりしてみた - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2023/05/06/231813)
