@@ -38,3 +38,4 @@ rails_7_0_minimal_app
 - [Rails + RSpecにて、changeマッチャまわりをいろいろ試してみた - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2023/05/05/233348)
 - [ActiveSupportのdeep_mergeに対し、with_indifferent_accessと組み合わせたり、blockを渡してみたりしてみた - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2023/05/06/231813)
 - [Rails + RSpecで、引数が必要なRake Taskのテストコードを書いてみた - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2023/06/08/003326)
+- [Railsで、included付のConcernをincludeしたり、prepended付のConcernをprependしてみた - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2023/06/12/215910)
