@@ -39,3 +39,4 @@ rails_7_0_minimal_app
 - [ActiveSupportのdeep_mergeに対し、with_indifferent_accessと組み合わせたり、blockを渡してみたりしてみた - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2023/05/06/231813)
 - [Rails + RSpecで、引数が必要なRake Taskのテストコードを書いてみた - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2023/06/08/003326)
 - [Railsで、included付のConcernをincludeしたり、prepended付のConcernをprependしてみた - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2023/06/12/215910)
+- [rspec-parameterizedで、letやlet!定義された変数の値を上書きする - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2023/10/04/201001)
