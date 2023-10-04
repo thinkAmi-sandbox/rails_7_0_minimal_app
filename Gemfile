@@ -31,6 +31,7 @@ group :development do
   # gem "spring"
   gem "annotate"
   gem "rails-mermaid_erd"
+  gem "rspec-parameterized-core", ">= 1.0.0"
 end
 
 group :test do

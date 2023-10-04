@@ -22,5 +22,9 @@ FactoryBot.define do
     name { "MyString" }
     published { false }
     author { nil }
+
+    trait :with_author do
+      association :author
+    end
   end
 end
