@@ -32,5 +32,13 @@ FactoryBot.define do
     factory :hokkaido_area do
       name { '北海道' }
     end
+
+    trait :tokyo do
+      name { '東京都' }
+    end
+
+    trait :okinawa do
+      name { '沖縄県' }
+    end
   end
 end
